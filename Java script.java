@@ -156,7 +156,7 @@ public class Matrix {
 					break;}}}
 		
 		return new int[] {n_local_areas, n_cleans};
-		}			
+	}			
 		
 	/// Print out the results for a given matrix
 	public void results(){
@@ -164,7 +164,7 @@ public class Matrix {
 		int[] results = n_local_areas_and_cleans_required();
 			
 		System.out.println("\n\tNumber of local areas: " + results[0] + "\n\tNumber of cleans required: " + results[1] + "\n");
-		};			 
+	};			 
 }
 		
 
